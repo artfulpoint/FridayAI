@@ -33,7 +33,7 @@ import { DevelopmentComponent } from './services/development/development.compone
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [{provide:APP_BASE_HREF,useValue:""}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
